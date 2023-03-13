@@ -78,7 +78,7 @@ try {
 ## server with node 18
 
 ## config mongodb
-
+```
 const {
     URLDATABASE,
     POST_DATABASE,
@@ -98,6 +98,7 @@ export const connectMongoDB = async () => {
         Logger.info('==================== connect mongodb  err====================');
     }
 };
+```
 
 ## using logger with winston
 ```
