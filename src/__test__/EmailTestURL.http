@@ -1,0 +1,13 @@
+### test email ###
+
+POST http://localhost:8080/api/v1/email/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7InVzZXJuYW1lIjoibHVhbm52diIsInBhc3N3b3JkIjoiMTIzNCIsImVtYWlsIjoibnZ2bHVhbi5pdEBnbWFpbC5jb20ifSwiaWF0IjoxNjc3MDM4ODMwLCJleHAiOjE2NzcxMjUyMzB9.PfLz2A5qryCfVyorJPu5fpNLnxbTfjlsaaztZmsXn9Q
+Content-Type: application/json
+
+{
+     "from": "exampsless@example.com",
+    "to": "nvvluan.it@gmail.com",
+    "subject": "hello world test queue!",
+    "html":"<p>LuanNVV </p>"
+}
+

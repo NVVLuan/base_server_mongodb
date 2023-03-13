@@ -1,0 +1,15 @@
+{
+	"getAllUser": {
+		"data": [
+			{
+				"_id": "63f6ca7d2b5e09124766b633",
+				"username": "anhbaHieu",
+				"password": "$2b$10$/nZpnRxLmIxkMSIsF.m42udH8eXsqIFRo6l7unthT03YfLdjj/C5K",
+				"email": "nvvluan2019@gmail.com",
+				"createdAt": "2023-02-23T02:07:57.598Z",
+				"updatedAt": "2023-02-23T02:07:57.598Z",
+				"__v": 0
+			}
+		]
+	}
+}

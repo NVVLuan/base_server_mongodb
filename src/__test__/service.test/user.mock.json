@@ -1,0 +1,48 @@
+{
+	"userData": [
+		{
+			"_id": "63f83b17d67a76a1084335b0",
+			"username": "anhbaHieu",
+			"password": "$2b$10$JZTJB6foJas9WYGULhhACua2WjZdZ.0ZG2LCFFJZlQ5x6.Y.QbFyu",
+			"email": "nvvluan2019@gmail.com",
+			"createdAt": "2023-02-24T04:20:39.949Z",
+			"updatedAt": "2023-02-24T04:20:39.949Z",
+			"__v": 0
+		},
+		{
+			"_id": "63f83b31d67a76a1084335b3",
+			"username": "luannvvs",
+			"password": "$2b$10$uFqVDmfNfgYe74WPqei.neyD/dbYi1fVNlZRYGDF5dtpK24EHsOgu",
+			"email": "nvvluan.it@gmail.com",
+			"createdAt": "2023-02-24T04:21:05.790Z",
+			"updatedAt": "2023-02-24T04:21:05.790Z",
+			"__v": 0
+		},
+		{
+			"_id": "63f859c173164df70b5fa793",
+			"username": "foo",
+			"password": "foo",
+			"email": "foo@example.com",
+			"createdAt": "2023-02-24T06:31:29.580Z",
+			"updatedAt": "2023-02-24T06:31:29.580Z",
+			"__v": 0
+		},
+		{
+			"_id": "63f866cacf9ad30824d989d4",
+			"username": "food",
+			"password": "foo",
+			"email": "foo@example.com",
+			"createdAt": "2023-02-24T07:27:06.012Z",
+			"updatedAt": "2023-02-24T07:27:06.012Z",
+			"__v": 0
+		}
+	],
+	"data_create": {
+		"__v": 0,
+		"_id": "63f87b9c6db547c28eb78861",
+		"createdAt": "2023-02-24T08: 55: 56.846Z",
+		"email": "foo@example.com",
+		"password": "$2b$10$lLi1VQMnNWIEXXr6jTgei.Il5Aag67Rht52LrDGfQnTDrk/macwqq",
+		"updatedAt": "2023-02-24T08:55:56.847Z",
+		 "username": "anhbaHieu"}
+	}

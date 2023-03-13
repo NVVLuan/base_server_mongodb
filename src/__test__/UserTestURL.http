@@ -1,0 +1,72 @@
+##### test Login ####
+
+POST http://localhost:8080/api/v1/user/login
+Content-Type: application/json
+
+{
+    "username":"luannvvs",
+    "password":"1234",
+     "email":"nvvluan.it@gmail.com"
+
+}
+
+### test signup ####
+POST http://localhost:8080/api/v1/user/signup
+Content-Type: application/json
+
+{
+    "username":"luannvvs",
+    "password":"1234",
+     "email":"nvvluan.it@gmail.com"
+}
+
+### test Login #### 
+POST http://localhost:8080/api/v1/user/login
+Content-Type: application/json
+
+{
+   "username":"anhbaHieu",
+    "password":"1234",
+    "email":"nvvluan2019@gmail.com"
+
+}
+
+### Get All User ####
+
+GET http://localhost:8080/api/v1/user/all-user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiNjNmODNiMTdkNjdhNzZhMTA4NDMzNWIwIiwidXNlcm5hbWUiOiJhbmhiYUhpZXUiLCJlbWFpbCI6Im52dmx1YW4yMDE5QGdtYWlsLmNvbSJ9LCJpYXQiOjE2NzcyMjQ4ODMsImV4cCI6MTY3NzMxMTI4M30.XR5qZtJz_ozgQ7BNz-Y2yLcgNIIs73dTfRXm0ir3IvY
+
+### Get ByID ######
+
+Get http://localhost:8080/api/v1/user/63f497bd3a894a51750a4e23
+
+### Update User ######
+
+Put http://localhost:8080/api/v1/user/update
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7InVzZXJuYW1lIjoibHVhbm52djEiLCJwYXNzd29yZCI6IjEyMzQiLCJlbWFpbCI6Im52dmx1YW4uaXRAZ21haWwuY29tIn0sImlhdCI6MTY3NjQ2MTY3NSwiZXhwIjoxNjc2NTQ4MDc1fQ.KyItIUPdU1koKOOgFwHnIj9uNQ22e9nOMsD5_IHxhM0
+Content-Type: application/json
+
+{   "id": "63ec8518efd8649e9aa33f4b",
+    "username":"luannvv1",
+    "password":"1234",
+    "email":"nvvluan.it@gmail.com"
+
+}
+
+### Delete User ####
+
+Delete http://localhost:8080/api/v1/user/delete/63f497bd3a894a51750a4e25
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiNjNmODNiMTdkNjdhNzZhMTA4NDMzNWIwIiwidXNlcm5hbWUiOiJhbmhiYUhpZXUiLCJlbWFpbCI6Im52dmx1YW4yMDE5QGdtYWlsLmNvbSJ9LCJpYXQiOjE2NzcyMzE1MDEsImV4cCI6MTY3NzMxNzkwMX0.cv3QAT_TzBQq8hZ4E2DwFNQPdxZ78vu0fJeo2knfP7s
+Content-Type: application/json
+
+### Refesh Token #####
+
+POST http://localhost:8080/api/v1/user/refresh-token/
+Content-Type: application/json
+
+{   
+    "refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7InVzZXJuYW1lIjoibHVhbm52diIsInBhc3N3b3JkIjoiMTIzNCIsImVtYWlsIjoibnZ2bHVhbi5pdEBnbWFpbC5jb20ifSwiaWF0IjoxNjc2Nzc3NjY3LCJleHAiOjE2NzY4NjQwNjd9.X57jj8R4GVFvnHm1gMRH7AU8-Rdb64mwInTHXiLvw5Q"
+}
+   
+
+

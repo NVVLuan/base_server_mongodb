@@ -1,0 +1,28 @@
+### test Create Voucher ####
+
+Post http://localhost:8080/api/v1/voucher
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiNjNmYzFlN2VhZjhmODUwNjIyNjA5ZDdjIiwidXNlcm5hbWUiOiJsdWFubnZ2cyIsImVtYWlsIjoibnZ2bHVhbi5pdEBnbWFpbC5jb20ifSwiaWF0IjoxNjc3NDY3MjY5LCJleHAiOjE2Nzc1NTM2Njl9.z1s5UrC94aKjWe5me3MzZ0w6L4HJlVFW2RiOnkdAOrc
+Content-Type: application/json
+
+{"value":"safasfasssdfssdfsdfsxcx","event_id":"63fc1e97af8f850622609d80"}
+
+#### test get all voucher #################################
+
+Get http://localhost:8080/api/v1/voucher/all-user-voucher
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiNjNmYzFlN2VhZjhmODUwNjIyNjA5ZDdjIiwidXNlcm5hbWUiOiJsdWFubnZ2cyIsImVtYWlsIjoibnZ2bHVhbi5pdEBnbWFpbC5jb20ifSwiaWF0IjoxNjc3NDY3MjY5LCJleHAiOjE2Nzc1NTM2Njl9.z1s5UrC94aKjWe5me3MzZ0w6L4HJlVFW2RiOnkdAOrc
+
+#### test voucher transaction ###############
+
+Post http://localhost:8080/api/v1/voucher/transaction
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiNjNmYzFlN2VhZjhmODUwNjIyNjA5ZDdjIiwidXNlcm5hbWUiOiJsdWFubnZ2cyIsImVtYWlsIjoibnZ2bHVhbi5pdEBnbWFpbC5jb20ifSwiaWF0IjoxNjc3NDY3MjY5LCJleHAiOjE2Nzc1NTM2Njl9.z1s5UrC94aKjWe5me3MzZ0w6L4HJlVFW2RiOnkdAOrc
+Content-Type: application/json
+
+{
+    "user_id":"63f83b17d67a76a1084335b0",
+    "voucher_id":"63f847c79808e01dc6fb720f"
+}
+
+### test delete voucher ###
+Delete http://localhost:8080/api/v1/voucher/delete-voucher/63f83ccea1c0302b580cd8c8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiNjNmYzFlN2VhZjhmODUwNjIyNjA5ZDdjIiwidXNlcm5hbWUiOiJsdWFubnZ2cyIsImVtYWlsIjoibnZ2bHVhbi5pdEBnbWFpbC5jb20ifSwiaWF0IjoxNjc3NDY3MjY5LCJleHAiOjE2Nzc1NTM2Njl9.z1s5UrC94aKjWe5me3MzZ0w6L4HJlVFW2RiOnkdAOrc
+Content-Type: application/json

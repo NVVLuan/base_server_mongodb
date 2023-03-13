@@ -1,0 +1,4 @@
+### get all transaction ###
+
+Get http://localhost:8080/api/v1/transaction/all-transaction
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiNjNmNjJiYWYyMzI1NzQ1NDZkM2Q0YTRlIiwidXNlcm5hbWUiOiJsdWFubnZ2cyIsImVtYWlsIjoibnZ2bHVhbi5pdEBnbWFpbC5jb20ifSwiaWF0IjoxNjc3MDc3NTIxLCJleHAiOjE2NzcxNjM5MjF9.AecwGd-aGtIChpv69in4q6YZzdiHaV0YDWA0GkFsz90

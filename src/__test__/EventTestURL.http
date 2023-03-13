@@ -1,0 +1,29 @@
+### event release ####
+POST http://localhost:8080/api/v1/event/039234/editable/release
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiNjNmNmNhN2QyYjVlMDkxMjQ3NjZiNjMzIiwidXNlcm5hbWUiOiJhbmhiYUhpZXUiLCJlbWFpbCI6Im52dmx1YW4yMDE5QGdtYWlsLmNvbSJ9LCJpYXQiOjE2NzcxMjU1MjMsImV4cCI6MTY3NzIxMTkyM30.lBbpj4b5-MBErvd8StIawKSkg133eeLJ1bucNhmZ8-4
+Content-Type: application/json
+
+### event maintain ####
+
+POST http://localhost:8080/api/v1/event/039234/editable/maintain
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiNjNmNmNhN2QyYjVlMDkxMjQ3NjZiNjMzIiwidXNlcm5hbWUiOiJhbmhiYUhpZXUiLCJlbWFpbCI6Im52dmx1YW4yMDE5QGdtYWlsLmNvbSJ9LCJpYXQiOjE2NzcxMjU1MjMsImV4cCI6MTY3NzIxMTkyM30.lBbpj4b5-MBErvd8StIawKSkg133eeLJ1bucNhmZ8-4
+Content-Type: application/json
+
+### event me #################################
+POST http://localhost:8080/api/v1/event/039234/editable/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiNjNmNmNhN2QyYjVlMDkxMjQ3NjZiNjMzIiwidXNlcm5hbWUiOiJhbmhiYUhpZXUiLCJlbWFpbCI6Im52dmx1YW4yMDE5QGdtYWlsLmNvbSJ9LCJpYXQiOjE2NzcxMjU1MjMsImV4cCI6MTY3NzIxMTkyM30.lBbpj4b5-MBErvd8StIawKSkg133eeLJ1bucNhmZ8-4
+Content-Type: application/json
+
+### test create Event ########
+POST http://localhost:8080/api/v1/event/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImlkIjoiNjNmZjZhNDZiZDFiZDVjZjMwY2Q0MmQxIiwidXNlcm5hbWUiOiJsdWFubnZ2cyIsImVtYWlsIjoibnZ2bHVhbi5pdEBnbWFpbC5jb20ifSwiaWF0IjoxNjc3NjgzMjc0LCJleHAiOjE2Nzc3Njk2NzR9.Ar7lZc_B3Ili50WUPSzPcmk_9pPa9c2ct6yCA16Bo0o
+Content-Type: application/json
+
+{
+     "name_event": "sale 100% macbook pro max",
+        "date_start":"2023-8-3",
+        "date_end":"2023-9-3",
+        "maxium":12
+        
+}
+
